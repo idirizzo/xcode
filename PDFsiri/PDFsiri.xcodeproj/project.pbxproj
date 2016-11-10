@@ -13,6 +13,7 @@
 		32C3FE7C1DD5004C0051D3F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32C3FE7A1DD5004C0051D3F2 /* Main.storyboard */; };
 		32C3FE7E1DD5004C0051D3F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32C3FE7D1DD5004C0051D3F2 /* Images.xcassets */; };
 		32C3FE8A1DD5004C0051D3F2 /* PDFsiriTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C3FE891DD5004C0051D3F2 /* PDFsiriTests.m */; };
+		32C3FE941DD50F370051D3F2 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C3FE931DD50F370051D3F2 /* View.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		32C3FE831DD5004C0051D3F2 /* PDFsiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFsiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32C3FE881DD5004C0051D3F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32C3FE891DD5004C0051D3F2 /* PDFsiriTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFsiriTests.m; sourceTree = "<group>"; };
+		32C3FE931DD50F370051D3F2 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				32C3FE6F1DD5004C0051D3F2 /* PDFsiri */,
 				32C3FE861DD5004C0051D3F2 /* PDFsiriTests */,
 				32C3FE6E1DD5004C0051D3F2 /* Products */,
+				32C3FE931DD50F370051D3F2 /* View.xib */,
 			);
 			sourceTree = "<group>";
 		};
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32C3FE7C1DD5004C0051D3F2 /* Main.storyboard in Resources */,
+				32C3FE941DD50F370051D3F2 /* View.xib in Resources */,
 				32C3FE7E1DD5004C0051D3F2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +408,7 @@
 				32C3FE8F1DD5004C0051D3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32C3FE901DD5004C0051D3F2 /* Build configuration list for PBXNativeTarget "PDFsiriTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +417,7 @@
 				32C3FE921DD5004C0051D3F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
